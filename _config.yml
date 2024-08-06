@@ -15,7 +15,7 @@ title: "CHOI JUNYONG"
 description: "단국대학교 도시계획부동산학부 교수"
 
 # The subpath of your site, e.g. /blog, for generating urls.
-baseurl: "/blog"
+baseurl: ""
 
 # The base hostname & protocol of your site for where absolute urls are needed.
 url: "https://mobilescape.github.io"

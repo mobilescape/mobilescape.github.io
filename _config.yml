@@ -32,10 +32,16 @@ navigation:
     url: /
   - text: About
     url: /about/
-  - text: Style Guide
-    url: /style-guide/
+  - text: Research
+    url: /research/
+  - text: Publications
+    url: /publications/  
+  - text: Class
+    url: /class/
   - text: Tags
-    url: /tags/
+    url: /tags/    
+  - text: News
+    url: /news/  
   - text: Download
     url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 

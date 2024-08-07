@@ -18,7 +18,7 @@ description: "단국대학교 도시계획부동산학부에서 도시 빅데이
 baseurl: ""
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://mobilescape.github.io/"
+url: "https://mobilescape.github.io"
 
 # Favicon
 # favicon: images/favicon.png

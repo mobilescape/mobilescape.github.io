@@ -45,7 +45,7 @@ navigation:
 #  - text: News
 #    url: /news/
   - text: Contact
-    url: https://cms.dankook.ac.kr/web/urban-real/-5
+    url: https://cms.dankook.ac.kr/web/urban-real/-5?p_p_id=DeptInfo_WAR_empInfoportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_DeptInfo_WAR_empInfoportlet_empId=DsbUwTF4lHE2VrPSxblL%2BQ%3D%3D&_DeptInfo_WAR_empInfoportlet_action=view_message
 #  - text: Download
 #    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 

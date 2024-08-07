@@ -35,13 +35,15 @@ navigation:
   - text: Research
     url: /research/
   - text: Publications
-    url: /publications/  
-  - text: Class
-    url: /class/
+    url: https://scholar.google.com/citations?hl=ko&user=Cd3liPIAAAAJ  
+  - text: Teaching
+    url: /teaching/
   - text: Tags
     url: /tags/    
   - text: News
-    url: /news/  
+    url: /news/
+  - text: Contact
+    url: https://cms.dankook.ac.kr/web/urban-real/-5
 #  - text: Download
 #    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 
@@ -53,7 +55,9 @@ accent_color: '#2d72d9'
 
 # Site footer
 footer:
-  content: "&copy; 최준용. Theme by [JustGoodThemes](https://www.justgoodthemes.com)."
+  content: "&copy; 최준용. Theme by [JustGoodThemes](https://www.justgoodthemes.com).
+  경기도 용인시 수지구 죽전로 152 단국대학교
+  Dankook University, 152, Jukjeon-ro, Suij-gu, Yongin-si, Gyeonngi-do, Korea"
   has_social: true
 
 # Plugins

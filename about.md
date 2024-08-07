@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CHOI Junyong, Ph.D.
+title: About
 # description: An optional about page for Scriptor Jekyll theme
 permalink: /about/
 # feature_image: images/about.jpg

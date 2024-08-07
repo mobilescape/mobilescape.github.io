@@ -38,8 +38,8 @@ navigation:
     url: https://scholar.google.com/citations?hl=ko&user=Cd3liPIAAAAJ  
   - text: Teaching
     url: /teaching/
-  - text: Tags
-    url: /tags/    
+#  - text: Tags
+#    url: /tags/    
   - text: News
     url: /news/
   - text: Contact

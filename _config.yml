@@ -55,9 +55,7 @@ accent_color: '#0045e6'
 
 # Site footer
 footer:
-  content: "&copy; 최준용. Theme by [JustGoodThemes](https://www.justgoodthemes.com). \n
-  경기도 용인시 수지구 죽전로 152 단국대학교 \n
-  Dankook University, 152, Jukjeon-ro, Suij-gu, Yongin-si, Gyeonngi-do, Korea"
+  content: "&copy; 최준용. Theme by [JustGoodThemes](https://www.justgoodthemes.com).\n경기도 용인시 수지구 죽전로 152 단국대학교\nDankook University, 152, Jukjeon-ro, Suij-gu, Yongin-si, Gyeonngi-do, Korea"
   has_social: false
 
 # Plugins

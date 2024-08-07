@@ -21,7 +21,7 @@ baseurl: ""
 url: "https://mobilescape.github.io"
 
 # Favicon
-favicon: images/favicon.png
+# favicon: images/favicon.png
 
 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 google_analytics: ""
@@ -51,7 +51,7 @@ navigation:
 # disqus: justgoodthemes
 
 # Colors
-accent_color: '#2d72d9'
+accent_color: '#0045e6'
 
 # Site footer
 footer:

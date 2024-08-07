@@ -42,8 +42,8 @@ navigation:
     url: /teaching/
 #  - text: Tags
 #    url: /tags/    
-  - text: News
-    url: /news/
+#  - text: News
+#    url: /news/
   - text: Contact
     url: https://cms.dankook.ac.kr/web/urban-real/-5
 #  - text: Download

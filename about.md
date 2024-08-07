@@ -1,17 +1,26 @@
 ---
 layout: page
-title: About this blogs
-description: An optional about page for Scriptor Jekyll theme
+title: CHOI Junyong, Ph.D.
+# description: An optional about page for Scriptor Jekyll theme
 permalink: /about/
-feature_image: images/about.jpg
+# feature_image: images/about.jpg
 ---
 
-**John Doe** is a Senior Art Director from [Vilnius](https://en.wikipedia.org/wiki/Vilnius), Lithuania. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2015.
+### 학력 | Education
+- Bachelor's degree in Civil and Environmental Engineering, KAIST, 2013
+- Master's degree in Civil and Environmental Engineering, KAIST, 2015
+- Ph.D. in Civil and Environmental Engineering, KAIST, 2023
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
 
-As a hobby, John Doe authors the most influential design blog in Lithuania with over 100,000 page views a month. He lives in Vilnius with his beautiful wife, two boys and one girl.
+### 경력 | Career
+- **2023-2024** Research Associate, Urban Big Data Centre, University of Glasgow, Glasgow, UK
+- **2023** Research Associate, KAIST, Daejeon, Korea
+- **2017-2018** Researcher, UNIST, Ulsan, Korea
 
-*Thank You for reading!*
+### 연구 분야 | Research Interests
+- 도시 모빌리티 | Urban Mobility
+- 도시 에너지 | Urban Energy
+- 지속가능 도시 | Sustaiable City
+- 스마트 도시 | Smart City
+- 도시 빅데이터 및 인공지능 | Urban Big Data & AI

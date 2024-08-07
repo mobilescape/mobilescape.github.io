@@ -2,6 +2,7 @@
 layout: page
 title: About this blogs
 description: An optional about page for Scriptor Jekyll theme
+permalink: /about/
 feature_image: images/about.jpg
 ---
 

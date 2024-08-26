@@ -11,7 +11,7 @@ permalink: /about/
 - 2013 학사 한국과학기술원 건설및환경공학과
 - 2015 석사 한국과학기술원 건설및환경공학과
 - 2023 박사 한국과학기술원 건설및환경공학과
-#####  
+<br>
 - Bachelor's degree in Civil and Environmental Engineering, KAIST, 2013
 - Master's degree in Civil and Environmental Engineering, KAIST, 2015
 - Ph.D. in Civil and Environmental Engineering, KAIST, 2023

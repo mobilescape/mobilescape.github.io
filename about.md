@@ -19,6 +19,7 @@ permalink: /about/
 
 
 #### 경력 | Career
+- **2024-Present** Assistant Professor, Dankook University, Gyeonggi-do, Korea
 - **2023-2024** Research Associate, Urban Big Data Centre, University of Glasgow, Glasgow, UK
 - **2023** Research Associate, KAIST, Daejeon, Korea
 - **2017-2018** Researcher, UNIST, Ulsan, Korea

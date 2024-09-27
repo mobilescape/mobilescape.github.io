@@ -31,7 +31,7 @@ permalink: /about/
 - 스마트 도시 \| Smart City
 - 도시 빅데이터 및 인공지능 \| Urban Big Data & AI
 
-## Member
+## Members
 
 ### 김근선, 학부연구생
 

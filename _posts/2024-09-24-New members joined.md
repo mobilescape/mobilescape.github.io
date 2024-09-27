@@ -8,3 +8,5 @@ date: 2024-09-24
 ---
 
 김근선과 정유빈이 학부연구생으로 참여했습니다. 환영합니다!
+
+A HUGE welcome to KIM Geunseon and JUNG Yubin joining us.

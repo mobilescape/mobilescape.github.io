@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New members joined"
+title: "Welcome New Members"
 # description: "테스트."
 date: 2024-09-24
 # feature_image: images/desk.jpg 
@@ -9,4 +9,4 @@ date: 2024-09-24
 
 김근선과 정유빈이 학부연구생으로 참여했습니다. 환영합니다!
 
-A HUGE welcome to KIM Geunseon and JUNG Yubin joining us.
+A HUGE welcome to KIM Geunseon and JUNG Yubin joining us as undergraduate researchers.

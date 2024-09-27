@@ -33,6 +33,6 @@ permalink: /about/
 
 ## Members
 
-### 김근선, 학부연구생
+### 김근선 KIM Geunseon, 학부연구생 undergraduate researcher
 
-### 정유빈, 학부연구생
+### 정유빈 JUNG Yubin, 학부연구생 undergraduate researcher

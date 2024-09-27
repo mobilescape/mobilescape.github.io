@@ -1,11 +1,12 @@
 ---
 layout: page
-title: About
+title: about
 # description: An optional about page for Scriptor Jekyll theme
 permalink: /about/
 # feature_image: images/about.jpg
 ---
 
+### CHOI Junyon, Director
 
 #### 학력 | Education
 - 2013 학사 한국과학기술원 건설및환경공학과
@@ -29,3 +30,9 @@ permalink: /about/
 - 지속가능 도시 \| Sustaiable City
 - 스마트 도시 \| Smart City
 - 도시 빅데이터 및 인공지능 \| Urban Big Data & AI
+
+## Member
+
+### 김근선, 학부연구생
+
+### 정유빈, 학부연구생

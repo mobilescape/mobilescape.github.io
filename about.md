@@ -6,7 +6,7 @@ permalink: /about/
 # feature_image: images/about.jpg
 ---
 
-### CHOI Junyon, Director
+### 최준용 CHOI Junyong, Director
 
 #### 학력 | Education
 - 2013 학사 한국과학기술원 건설및환경공학과

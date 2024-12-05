@@ -36,3 +36,5 @@ permalink: /about/
 ### 김근선 KIM Geunseon, 학부연구생 undergraduate researcher
 
 ### 정유빈 JUNG Yubin, 학부연구생 undergraduate researcher
+
+### 윤량근 YOUN Rangkeun, 학부연구생 undergraduate researcher

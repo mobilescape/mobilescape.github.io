@@ -33,8 +33,12 @@ permalink: /about/
 
 ## Members
 
-### 김근선 KIM Geunseon, 학부연구생 undergraduate researcher
+### Graduate Students | 대학원생
 
-### 정유빈 JUNG Yubin, 학부연구생 undergraduate researcher
+* 정유빈 JUNG Yubin, Master's student
 
-### 윤량근 YOUN Rangkeun, 학부연구생 undergraduate researcher
+### Undergraduate Researchers | 학부연구생
+
+* 김근선 KIM Geunseon
+
+* 윤량근 YOUN Rangkeun

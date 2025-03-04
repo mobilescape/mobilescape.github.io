@@ -33,11 +33,11 @@ permalink: /about/
 
 ## Members
 
-### Graduate Students | 대학원생
+### 대학원생 | Graduate Students
 
 * 정유빈 JUNG Yubin, Master's student
 
-### Undergraduate Researchers | 학부연구생
+### 학부연구생 | Undergraduate Researchers
 
 * 김근선 KIM Geunseon
 

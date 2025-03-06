@@ -35,10 +35,9 @@ permalink: /about/
 
 ### 대학원생 | Graduate Students
 
-* [정유빈 JUNG Yubin]({%link _about/me.md}), Master's student
+* 정유빈 JUNG Yubin, Master's student
 
 ### 학부연구생 | Undergraduate Researchers
 
 * 김근선 KIM Geunseon
-
 * 윤량근 YOUN Rangkeun

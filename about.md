@@ -35,7 +35,7 @@ permalink: /about/
 
 ### 대학원생 | Graduate Students
 
-* 정유빈 JUNG Yubin, Master's student
+* [정유빈 JUNG Yubin]({%link me.md}), Master's student
 
 ### 학부연구생 | Undergraduate Researchers
 

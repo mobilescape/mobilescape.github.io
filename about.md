@@ -39,5 +39,7 @@ permalink: /about/
 
 ### 학부연구생 | Undergraduate Researchers
 
+* 안정우 AN Jungwoo
+* 송진서 SONG Jinseo
 * 김근선 KIM Geunseon
 * 윤량근 YOUN Rangkeun

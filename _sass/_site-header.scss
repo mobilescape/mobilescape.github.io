@@ -64,6 +64,20 @@
   }
 }
 
+.nav-hover-link {
+  .nav-hover-text {
+    display: none;
+  }
+  &:hover {
+    .nav-text {
+      display: none;
+    }
+    .nav-hover-text {
+      display: inline;
+    }
+  }
+}
+
 .menu-toggle {
   display: none;
 }

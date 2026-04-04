@@ -30,12 +30,15 @@ google_analytics: ""
 
 # Site navigation - each item must have a title and a url.
 navigation:
-  - text: Home
-    url: /
+#  - text: Home
+#    url: /
   - text: About
     url: /about/
   - text: Research
     url: /research/
+    hover: Mobilescape
+  - text: Blog
+    url: /blog/
   - text: Publications
     url: https://scholar.google.com/citations?hl=ko&user=Cd3liPIAAAAJ  
   - text: Teaching

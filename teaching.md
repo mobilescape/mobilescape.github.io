@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Teaching
-# description: An optional about page for Scriptor Jekyll theme
+lang: ko
+ref: teaching
 permalink: /teaching/
-# feature_image: images/about.jpg
 ---
 
 - AI와 도시계획 (2025 봄, 2024 봄)

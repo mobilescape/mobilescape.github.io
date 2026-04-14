@@ -27,35 +27,36 @@
           {% endif %}
         </li>
         {% endfor %}
+        <li class="menu-item lang-switcher">
+          {% if page.ref %}
+            {% if current_lang == 'ko' %}
+              {% assign alt_page = site.pages | where: 'ref', page.ref | where: 'lang', 'en' | first %}
+              {% if alt_page %}<a href="{{ alt_page.url }}">EN</a>{% else %}<span class="lang-inactive">EN</span>{% endif %}
+              <span class="lang-sep">|</span>
+              <span class="lang-active">KO</span>
+            {% else %}
+              <span class="lang-active">EN</span>
+              <span class="lang-sep">|</span>
+              {% assign alt_page = site.pages | where: 'ref', page.ref | where: 'lang', 'ko' | first %}
+              {% if alt_page %}<a href="{{ alt_page.url }}">KO</a>{% else %}<span class="lang-inactive">KO</span>{% endif %}
+            {% endif %}
+          {% else %}
+            {% if current_lang == 'ko' %}
+              <a href="/en/about/">EN</a>
+              <span class="lang-sep">|</span>
+              <span class="lang-active">KO</span>
+            {% else %}
+              <span class="lang-active">EN</span>
+              <span class="lang-sep">|</span>
+              <a href="/about/">KO</a>
+            {% endif %}
+          {% endif %}
+        </li>
       </ul><!-- .menu -->
       <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
           class="icon-close" aria-hidden="true"></span></button>
     </div><!-- .site-navigation-wrap -->
   </nav><!-- .site-navigation -->
-  <div class="lang-dropdown">
-    <button class="lang-dropdown-toggle" aria-haspopup="listbox" aria-expanded="false">
-      {% if current_lang == 'en' %}&#x1F1FA;&#x1F1F8;{% else %}&#x1F1F0;&#x1F1F7;{% endif %}<span class="lang-arrow" aria-hidden="true">&#9660;</span>
-    </button>
-    <ul class="lang-dropdown-menu" role="listbox">
-      {% if page.ref %}
-        {% assign en_page = site.pages | where: 'ref', page.ref | where: 'lang', 'en' | first %}
-        {% assign ko_page = site.pages | where: 'ref', page.ref | where: 'lang', 'ko' | first %}
-        <li role="option"{% if current_lang == 'en' %} aria-selected="true"{% endif %}>
-          {% if en_page %}<a href="{{ en_page.url }}"{% if current_lang == 'en' %} class="lang-option-active"{% endif %}>&#x1F1FA;&#x1F1F8; EN</a>{% else %}<span class="lang-option-inactive">&#x1F1FA;&#x1F1F8; EN</span>{% endif %}
-        </li>
-        <li role="option"{% if current_lang == 'ko' %} aria-selected="true"{% endif %}>
-          {% if ko_page %}<a href="{{ ko_page.url }}"{% if current_lang == 'ko' %} class="lang-option-active"{% endif %}>&#x1F1F0;&#x1F1F7; KO</a>{% else %}<span class="lang-option-inactive">&#x1F1F0;&#x1F1F7; KO</span>{% endif %}
-        </li>
-      {% else %}
-        <li role="option"{% if current_lang == 'en' %} aria-selected="true"{% endif %}>
-          <a href="/en/about/"{% if current_lang == 'en' %} class="lang-option-active"{% endif %}>&#x1F1FA;&#x1F1F8; EN</a>
-        </li>
-        <li role="option"{% if current_lang == 'ko' %} aria-selected="true"{% endif %}>
-          <a href="/about/"{% if current_lang == 'ko' %} class="lang-option-active"{% endif %}>&#x1F1F0;&#x1F1F7; KO</a>
-        </li>
-      {% endif %}
-    </ul>
-  </div><!-- .lang-dropdown -->
   <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
 </header>
 

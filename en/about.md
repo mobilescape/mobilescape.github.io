@@ -6,7 +6,9 @@ ref: about
 permalink: /en/about/
 ---
 
-### CHOI Junyong, Director
+### CHOI Junyong, PhD
+### Director of Mobilescape
+
 
 #### Education
 

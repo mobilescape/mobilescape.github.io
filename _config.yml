@@ -7,14 +7,15 @@
 
 encoding: UTF-8
 
-# Site language
-lang: KOR
+# Site default language (ko or en)
+lang: ko
 
 # Site title
 title: "CHOI JUNYONG"
 
 # A description of your site for meta tag, search engine results.
 description: "단국대학교 도시계획부동산학부에서 도시 빅데이터, 인공지능, 도시 이동을 연구하고 가르치고 있습니다."
+description_en: "Researching and teaching urban big data, artificial intelligence, and urban mobility at the School of Urban Planning and Real Estate, Dankook University."
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
@@ -51,6 +52,22 @@ navigation:
     url: /contact/
 #  - text: Download
 #    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
+
+# English navigation
+navigation_en:
+  - text: About
+    url: /en/about/
+  - text: Research
+    url: /en/research/
+    hover: Mobilescape
+  - text: Blog
+    url: /blog/
+  - text: Publications
+    url: https://scholar.google.com/citations?hl=ko&user=Cd3liPIAAAAJ
+  - text: Teaching
+    url: /en/teaching/
+  - text: Contact
+    url: /en/contact/
 
 # The shortname for your Disqus site to enable comments.
 # disqus: justgoodthemes

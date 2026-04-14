@@ -37,6 +37,33 @@
   }
 }
 
+/* Language Switcher */
+.lang-switcher {
+  a, .lang-active, .lang-inactive, .lang-sep {
+    font-size: 0.77778rem;
+    font-weight: bold;
+    vertical-align: middle;
+  }
+  .lang-active {
+    color: _palette(accent);
+  }
+  .lang-inactive {
+    color: _palette(border);
+    cursor: default;
+  }
+  .lang-sep {
+    color: _palette(border);
+    margin: 0 2px;
+  }
+  a {
+    color: _palette(meta);
+    text-decoration: none;
+    &:hover {
+      color: _palette(accent);
+    }
+  }
+}
+
 /* Navigation */
 .site-navigation {
   margin-left: auto;

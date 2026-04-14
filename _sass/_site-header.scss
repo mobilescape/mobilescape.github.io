@@ -37,30 +37,94 @@
   }
 }
 
-/* Language Switcher */
-.lang-switcher {
-  a, .lang-active, .lang-inactive, .lang-sep {
-    font-size: 0.77778rem;
+/* Language Dropdown */
+.lang-dropdown {
+  position: relative;
+  margin-left: 16px;
+  padding-left: 16px;
+  border-left: 1px solid _palette(border);
+  flex-shrink: 0;
+
+  &:hover .lang-dropdown-menu,
+  &:focus-within .lang-dropdown-menu {
+    display: block;
+  }
+}
+
+.lang-dropdown-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 1.15rem;
+  line-height: 1;
+  padding: 4px 2px;
+  color: _palette(primary);
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+
+  &:hover,
+  &:focus {
+    opacity: 0.75;
+    outline: none;
+  }
+}
+
+.lang-arrow {
+  font-size: 0.55rem;
+  color: _palette(meta);
+  margin-left: 1px;
+  vertical-align: middle;
+}
+
+.lang-dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  background: #fff;
+  border: 1px solid _palette(border);
+  border-radius: 3px;
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  min-width: 90px;
+  z-index: 200;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  li {
+    margin: 0;
+  }
+
+  a,
+  .lang-option-inactive {
+    display: block;
+    padding: 6px 14px;
+    font-size: 0.88889rem;
     font-weight: bold;
-    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
   }
-  .lang-active {
-    color: _palette(accent);
-  }
-  .lang-inactive {
-    color: _palette(border);
-    cursor: default;
-  }
-  .lang-sep {
-    color: _palette(border);
-    margin: 0 2px;
-  }
+
   a {
     color: _palette(meta);
-    text-decoration: none;
     &:hover {
       color: _palette(accent);
+      background: _palette(bg);
+      text-decoration: none;
     }
+  }
+
+  .lang-option-active {
+    color: _palette(accent);
+  }
+
+  .lang-option-inactive {
+    color: _palette(border);
+    cursor: default;
   }
 }
 
@@ -135,7 +199,13 @@
     -ms-flex: 0 0 auto;
     -webkit-flex: 0 0 auto;
     flex: 0 0 auto;
+    margin-left: 10px;
+  }
+
+  .lang-dropdown {
     margin-left: auto;
+    border-left: none;
+    padding-left: 0;
   }
 
   #menu-close {

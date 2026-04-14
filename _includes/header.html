@@ -32,30 +32,31 @@
           class="icon-close" aria-hidden="true"></span></button>
     </div><!-- .site-navigation-wrap -->
   </nav><!-- .site-navigation -->
-  <div class="lang-dropdown">
-    <button class="lang-dropdown-toggle" aria-haspopup="listbox" aria-expanded="false">
-      {% if current_lang == 'en' %}&#x1F1FA;&#x1F1F8;{% else %}&#x1F1F0;&#x1F1F7;{% endif %}<span class="lang-arrow" aria-hidden="true">&#9660;</span>
-    </button>
-    <ul class="lang-dropdown-menu" role="listbox">
+  <div class="lang-toggle">
+    {% if current_lang == 'en' %}
+      {% if page.ref %}
+        {% assign ko_page = site.pages | where: 'ref', page.ref | where: 'lang', 'ko' | first %}
+        {% if ko_page %}
+          <a class="lang-toggle-link" href="{{ ko_page.url }}" title="한국어로 보기">&#x1F1F0;&#x1F1F7;</a>
+        {% else %}
+          <a class="lang-toggle-link" href="/about/" title="한국어로 보기">&#x1F1F0;&#x1F1F7;</a>
+        {% endif %}
+      {% else %}
+        <a class="lang-toggle-link" href="/about/" title="한국어로 보기">&#x1F1F0;&#x1F1F7;</a>
+      {% endif %}
+    {% else %}
       {% if page.ref %}
         {% assign en_page = site.pages | where: 'ref', page.ref | where: 'lang', 'en' | first %}
-        {% assign ko_page = site.pages | where: 'ref', page.ref | where: 'lang', 'ko' | first %}
-        <li role="option"{% if current_lang == 'en' %} aria-selected="true"{% endif %}>
-          {% if en_page %}<a href="{{ en_page.url }}"{% if current_lang == 'en' %} class="lang-option-active"{% endif %}>&#x1F1FA;&#x1F1F8; EN</a>{% else %}<span class="lang-option-inactive">&#x1F1FA;&#x1F1F8; EN</span>{% endif %}
-        </li>
-        <li role="option"{% if current_lang == 'ko' %} aria-selected="true"{% endif %}>
-          {% if ko_page %}<a href="{{ ko_page.url }}"{% if current_lang == 'ko' %} class="lang-option-active"{% endif %}>&#x1F1F0;&#x1F1F7; KO</a>{% else %}<span class="lang-option-inactive">&#x1F1F0;&#x1F1F7; KO</span>{% endif %}
-        </li>
+        {% if en_page %}
+          <a class="lang-toggle-link" href="{{ en_page.url }}" title="View in English">&#x1F1EC;&#x1F1E7;</a>
+        {% else %}
+          <a class="lang-toggle-link" href="/en/about/" title="View in English">&#x1F1EC;&#x1F1E7;</a>
+        {% endif %}
       {% else %}
-        <li role="option"{% if current_lang == 'en' %} aria-selected="true"{% endif %}>
-          <a href="/en/about/"{% if current_lang == 'en' %} class="lang-option-active"{% endif %}>&#x1F1FA;&#x1F1F8; EN</a>
-        </li>
-        <li role="option"{% if current_lang == 'ko' %} aria-selected="true"{% endif %}>
-          <a href="/about/"{% if current_lang == 'ko' %} class="lang-option-active"{% endif %}>&#x1F1F0;&#x1F1F7; KO</a>
-        </li>
+        <a class="lang-toggle-link" href="/en/about/" title="View in English">&#x1F1EC;&#x1F1E7;</a>
       {% endif %}
-    </ul>
-  </div><!-- .lang-dropdown -->
+    {% endif %}
+  </div><!-- .lang-toggle -->
   <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
 </header>
 

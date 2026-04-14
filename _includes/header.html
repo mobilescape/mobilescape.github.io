@@ -33,27 +33,33 @@
     </div><!-- .site-navigation-wrap -->
   </nav><!-- .site-navigation -->
   <div class="lang-toggle">
-    {% if current_lang == 'en' %}
+    {% if current_lang == 'ko' %}
+      <span class="lang-toggle-link lang-active">KO</span>
+    {% else %}
       {% if page.ref %}
         {% assign ko_page = site.pages | where: 'ref', page.ref | where: 'lang', 'ko' | first %}
         {% if ko_page %}
-          <a class="lang-toggle-link" href="{{ ko_page.url }}" title="한국어로 보기">&#x1F1F0;&#x1F1F7;</a>
+          <a class="lang-toggle-link" href="{{ ko_page.url }}" title="한국어로 보기">KO</a>
         {% else %}
-          <a class="lang-toggle-link" href="/about/" title="한국어로 보기">&#x1F1F0;&#x1F1F7;</a>
+          <a class="lang-toggle-link" href="/about/" title="한국어로 보기">KO</a>
         {% endif %}
       {% else %}
-        <a class="lang-toggle-link" href="/about/" title="한국어로 보기">&#x1F1F0;&#x1F1F7;</a>
+        <a class="lang-toggle-link" href="/about/" title="한국어로 보기">KO</a>
       {% endif %}
+    {% endif %}
+    <span class="lang-divider">|</span>
+    {% if current_lang == 'en' %}
+      <span class="lang-toggle-link lang-active">EN</span>
     {% else %}
       {% if page.ref %}
         {% assign en_page = site.pages | where: 'ref', page.ref | where: 'lang', 'en' | first %}
         {% if en_page %}
-          <a class="lang-toggle-link" href="{{ en_page.url }}" title="View in English">&#x1F1EC;&#x1F1E7;</a>
+          <a class="lang-toggle-link" href="{{ en_page.url }}" title="View in English">EN</a>
         {% else %}
-          <a class="lang-toggle-link" href="/en/about/" title="View in English">&#x1F1EC;&#x1F1E7;</a>
+          <a class="lang-toggle-link" href="/en/about/" title="View in English">EN</a>
         {% endif %}
       {% else %}
-        <a class="lang-toggle-link" href="/en/about/" title="View in English">&#x1F1EC;&#x1F1E7;</a>
+        <a class="lang-toggle-link" href="/en/about/" title="View in English">EN</a>
       {% endif %}
     {% endif %}
   </div><!-- .lang-toggle -->

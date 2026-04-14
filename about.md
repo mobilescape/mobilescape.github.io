@@ -6,7 +6,8 @@ ref: about
 permalink: /about/
 ---
 
-### 최준용 CHOI Junyong, Director
+### 최준용 CHOI Junyong, PhD 
+### Director of Mobilescape
 
 #### 학력
 
@@ -36,6 +37,7 @@ permalink: /about/
 ### 대학원생
 
 * 정유빈, 석사과정
+* 오준범, 석사과정
 
 ### 학부연구생
 

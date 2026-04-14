@@ -27,36 +27,36 @@
           {% endif %}
         </li>
         {% endfor %}
-        <li class="menu-item lang-switcher">
-          {% if page.ref %}
-            {% if current_lang == 'ko' %}
-              {% assign alt_page = site.pages | where: 'ref', page.ref | where: 'lang', 'en' | first %}
-              {% if alt_page %}<a href="{{ alt_page.url }}">EN</a>{% else %}<span class="lang-inactive">EN</span>{% endif %}
-              <span class="lang-sep">|</span>
-              <span class="lang-active">KO</span>
-            {% else %}
-              <span class="lang-active">EN</span>
-              <span class="lang-sep">|</span>
-              {% assign alt_page = site.pages | where: 'ref', page.ref | where: 'lang', 'ko' | first %}
-              {% if alt_page %}<a href="{{ alt_page.url }}">KO</a>{% else %}<span class="lang-inactive">KO</span>{% endif %}
-            {% endif %}
-          {% else %}
-            {% if current_lang == 'ko' %}
-              <a href="/en/about/">EN</a>
-              <span class="lang-sep">|</span>
-              <span class="lang-active">KO</span>
-            {% else %}
-              <span class="lang-active">EN</span>
-              <span class="lang-sep">|</span>
-              <a href="/about/">KO</a>
-            {% endif %}
-          {% endif %}
-        </li>
       </ul><!-- .menu -->
       <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
           class="icon-close" aria-hidden="true"></span></button>
     </div><!-- .site-navigation-wrap -->
   </nav><!-- .site-navigation -->
+  <div class="lang-toggle">
+    {% if current_lang == 'en' %}
+      {% if page.ref %}
+        {% assign ko_page = site.pages | where: 'ref', page.ref | where: 'lang', 'ko' | first %}
+        {% if ko_page %}
+          <a class="lang-toggle-link" href="{{ ko_page.url }}" title="한국어로 보기">&#x1F1F0;&#x1F1F7;</a>
+        {% else %}
+          <a class="lang-toggle-link" href="/about/" title="한국어로 보기">&#x1F1F0;&#x1F1F7;</a>
+        {% endif %}
+      {% else %}
+        <a class="lang-toggle-link" href="/about/" title="한국어로 보기">&#x1F1F0;&#x1F1F7;</a>
+      {% endif %}
+    {% else %}
+      {% if page.ref %}
+        {% assign en_page = site.pages | where: 'ref', page.ref | where: 'lang', 'en' | first %}
+        {% if en_page %}
+          <a class="lang-toggle-link" href="{{ en_page.url }}" title="View in English">&#x1F1EC;&#x1F1E7;</a>
+        {% else %}
+          <a class="lang-toggle-link" href="/en/about/" title="View in English">&#x1F1EC;&#x1F1E7;</a>
+        {% endif %}
+      {% else %}
+        <a class="lang-toggle-link" href="/en/about/" title="View in English">&#x1F1EC;&#x1F1E7;</a>
+      {% endif %}
+    {% endif %}
+  </div><!-- .lang-toggle -->
   <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
 </header>
 

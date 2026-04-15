@@ -1,12 +1,10 @@
 ---
 layout: page
-title:
+title: Join Me
 lang: en
 ref: contact
 permalink: /en/contact/
 ---
-
-# Join Me
 
 I am always looking for undergraduate and graduate students who are interested in conducting research.
 

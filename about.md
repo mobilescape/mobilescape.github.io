@@ -7,7 +7,7 @@ permalink: /about/
 ---
 
 ### 최준용 CHOI Junyong, PhD 
-### Director of Mobilescape
+### Director of [Mobilescape](https://choi-junyong.dankook.ac.kr/mobilescape/)
 
 #### 학력
 
@@ -31,17 +31,3 @@ permalink: /about/
 - 지속가능 도시
 - 스마트 도시
 - 도시 빅데이터 및 인공지능
-
-## 구성원
-
-### 대학원생
-
-* 정유빈, 석사과정
-* 오준범, 석사과정
-
-### 학부연구생
-
-* 안정우
-* 송진서
-* 김근선
-* 윤량근

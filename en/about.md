@@ -7,7 +7,7 @@ permalink: /en/about/
 ---
 
 ### CHOI Junyong, PhD
-### Director of Mobilescape
+### Director of [Mobilescape](https://choi-junyong.dankook.ac.kr/mobilescape/)
 
 
 #### Education
@@ -32,16 +32,3 @@ permalink: /en/about/
 - Sustainable City
 - Smart City
 - Urban Big Data & AI
-
-## Members
-
-### Graduate Students
-
-* JUNG Yubin, Master's student
-
-### Undergraduate Researchers
-
-* AN Jungwoo
-* SONG Jinseo
-* KIM Geunseon
-* YOUN Rangkeun

@@ -58,7 +58,7 @@ navigation_en:
   - text: About
     url: /en/about/
   - text: Research
-    url: /mobilescape
+    url: /mobilescape/en/
     hover: Mobilescape
   - text: Blog
     url: /blog/

@@ -37,12 +37,12 @@
       {% if page.ref %}
         {% assign ko_page = site.pages | where: 'ref', page.ref | where: 'lang', 'ko' | first %}
         {% if ko_page %}
-          <a class="lang-toggle-link" href="{{ ko_page.url }}" title="한국어로 보기">&#x1F1F0;&#x1F1F7;</a>
+          <a class="lang-toggle-link" href="{{ ko_page.url }}" title="한국어로 보기">KOR</a>
         {% else %}
-          <a class="lang-toggle-link" href="/about/" title="한국어로 보기">&#x1F1F0;&#x1F1F7;</a>
+          <a class="lang-toggle-link" href="/about/" title="한국어로 보기">KOR</a>
         {% endif %}
       {% else %}
-        <a class="lang-toggle-link" href="/about/" title="한국어로 보기">&#x1F1F0;&#x1F1F7;</a>
+        <a class="lang-toggle-link" href="/about/" title="한국어로 보기">KOR</a>
       {% endif %}
     {% else %}
       {% if page.ref %}

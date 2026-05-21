@@ -38,8 +38,8 @@ navigation:
   - text: Research
     url: /mobilescape/
     hover: Mobilescape
-  - text: Blog
-    url: /blog/
+#  - text: Blog
+#    url: /blog/
   - text: Publications
     url: https://scholar.google.com/citations?hl=ko&user=Cd3liPIAAAAJ  
   - text: Teaching

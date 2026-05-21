@@ -7,6 +7,6 @@ date: 2025-03-01
 # tags: [tips, work]
 ---
 
-정유빈이 석사과정 학생이 되었습니다.
+정유빈이 첫번째 석사과정 학생이 되었습니다.
 
 JUNG Yubin is the first masters' student in the Lab. Welcome aboard.

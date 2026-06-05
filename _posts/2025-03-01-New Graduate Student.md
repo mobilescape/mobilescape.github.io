@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcom Graduate Students"
+title: "Welcome Graduate Students"
 # description: "테스트."
 date: 2025-03-01
 # feature_image: images/desk.jpg 

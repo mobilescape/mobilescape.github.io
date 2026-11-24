@@ -1,3 +1,12 @@
+# CHOI Junyong — personal website
+
+This Jekyll site is the personal homepage. Research group content is maintained separately in
+the [Mobilescape repository](https://github.com/mobilescape/mobilescape), published at
+`/mobilescape/`. Korean and English teaching pages are maintained here.
+The custom domain is configured in `CNAME`; preserve existing permalinks when editing pages.
+
+Run locally with `bundle install` followed by `bundle exec jekyll serve`.
+
 # Scriptor
 > Scriptor is a simple, minimal, clean & responsive Jekyll theme for writers.
 

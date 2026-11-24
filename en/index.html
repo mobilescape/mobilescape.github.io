@@ -1,0 +1,24 @@
+---
+layout: default
+lang: en
+ref: home
+permalink: /en/
+---
+<main class="main-content fadeInDown delay_075s">
+  <article class="post">
+    <header class="post-header"><h1 class="post-title">CHOI Junyong</h1></header>
+    <div class="post-content">
+      <p>Assistant Professor at the School of Urban Planning and Real Estate, Dankook University. I research and teach urban mobility and space using urban big data and artificial intelligence.</p>
+      <p><a href="{{ '/en/about/' | relative_url }}">About</a> · <a href="{{ '/en/teaching/' | relative_url }}">Teaching</a> · <a href="{{ '/mobilescape/en/' | relative_url }}">Mobilescape Lab</a></p>
+    </div>
+  </article>
+  <h2>News</h2>
+  {% for post in site.posts limit: 3 %}
+    <article class="post">
+      <header class="post-header">
+        <time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%B %-d, %Y' }}</time>
+        <h3 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      </header>
+    </article>
+  {% endfor %}
+</main>

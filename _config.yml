@@ -21,7 +21,7 @@ description_en: "Researching and teaching urban big data, artificial intelligenc
 baseurl: ""
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://mobilescape.github.io"
+url: "https://choi-junyong.dankook.ac.kr"
 
 # Favicon
 # favicon: images/favicon.png
@@ -35,9 +35,8 @@ navigation:
 #    url: /
   - text: About
     url: /about/
-  - text: Research
+  - text: Mobilescape
     url: /mobilescape/
-    hover: Mobilescape
 #  - text: Blog
 #    url: /blog/
   - text: Publications
@@ -57,11 +56,8 @@ navigation:
 navigation_en:
   - text: About
     url: /en/about/
-  - text: Research
+  - text: Mobilescape
     url: /mobilescape/en/
-    hover: Mobilescape
-  - text: Blog
-    url: /blog/
   - text: Publications
     url: https://scholar.google.com/citations?hl=ko&user=Cd3liPIAAAAJ
   - text: Teaching

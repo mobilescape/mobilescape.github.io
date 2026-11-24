@@ -1,8 +1,22 @@
 ---
 layout: default
+lang: ko
+ref: home
 ---
 
 <main class="main-content fadeInDown delay_075s">
+  {% if paginator.page == 1 %}
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">최준용 · CHOI Junyong</h1>
+    </header>
+    <div class="post-content">
+      <p>단국대학교 도시계획부동산학부 조교수. 도시 빅데이터와 인공지능을 활용해 도시 이동과 공간을 연구하고 가르칩니다.</p>
+      <p><a href="{{ '/about/' | relative_url }}">교수 소개</a> · <a href="{{ '/teaching/' | relative_url }}">강의</a> · <a href="{{ '/mobilescape/' | relative_url }}">Mobilescape 연구실</a></p>
+    </div>
+  </article>
+  <h2>소식</h2>
+  {% endif %}
 
   {% for post in paginator.posts %}
   <article class="post">
